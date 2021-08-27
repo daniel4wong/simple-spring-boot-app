@@ -22,3 +22,11 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+task bootRunDev {
+	bootRun.configure {
+		systemProperty "spring.profiles.active", 'Dev'
+	}
+}
+
+bootRunDev.finalizedBy bootRun

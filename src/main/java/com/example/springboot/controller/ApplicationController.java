@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.example.springboot.controller;
 
 import com.example.springboot.entity.Employee;
 import com.example.springboot.service.EmployeeService;
